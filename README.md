@@ -1,3 +1,9 @@
+# Introduction
+A simple birthday reminder application created with reactJS.
+
+# View Build
+https://react-bday-appt-app.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
