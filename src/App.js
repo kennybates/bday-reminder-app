@@ -5,7 +5,8 @@ import { data } from './data';
 import List from './List';
 
 function App() {
-  const [people, setPeople] = useState(data);
+  const [people, setPeople] = useState(data); 
+  // Reset Function - setPeople(data) - populates data array 
   const reset = () => {
     setPeople(data);
   };
@@ -14,7 +15,7 @@ function App() {
       <section className="container">
         <h3> {people.length} Birthdays today</h3>
         <List people={people}/>
-        <button onClick={() => setPeople([])}>Clear All</button>
+        <button onClick={() => setPeople([])}>Clear All</button> 
         <button onClick={reset}>Show All</button>
       </section>
       

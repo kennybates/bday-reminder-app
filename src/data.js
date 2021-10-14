@@ -1,3 +1,4 @@
+// data array for people {id, name, age, image}
 export const data = [
     {
         id: 1,
