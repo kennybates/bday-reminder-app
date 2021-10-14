@@ -8,14 +8,14 @@ function App() {
   const [people, setPeople] = useState(data);
   return (
     <main>
-      <h1>Birthday Reminders</h1>
       <section className="container">
-        <h2> {people.length} Birthdays today</h2>
+        <h3> {people.length} Birthdays today</h3>
         <List people={people}/>
+        <button onClick={() => setPeople([])}>Clear All</button>
       </section>
-      <button className="btn" >Clear Birthdays</button>
+      
     </main>
   );
-}
+};
 
 export default App;
